@@ -1,0 +1,34 @@
+table td{
+    border: solid rgb(27, 232, 184);
+    width: 100px;
+    height:100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin: auto;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(26, 221, 110);
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+.winner{
+    color: rgb(87, 87, 212);
+}
+.line{
+    line-height: 10px;
+}
+.line>h3{
+    color: rgb(231, 48, 235);
+}
+.line>h2{
+    color: rgb(33, 212, 224);
+}
